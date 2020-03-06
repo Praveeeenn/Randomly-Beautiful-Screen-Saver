@@ -12,16 +12,22 @@
 		AC6C16FF24083AB4000D446E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6C16FD24083AB4000D446E /* Main.storyboard */; };
 		AC6C170124083AB4000D446E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6C170024083AB4000D446E /* Assets.xcassets */; };
 		AC6C170424083AB4000D446E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6C170224083AB4000D446E /* LaunchScreen.storyboard */; };
+		AC6C170C2408E6EF000D446E /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6C170B2408E6EF000D446E /* ImagesViewController.swift */; };
+		AC6C170E2408F0F2000D446E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6C170D2408F0F2000D446E /* Constants.swift */; };
+		AC6C17102408F193000D446E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6C170F2408F193000D446E /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC6C16F624083AB4000D446E /* AppleTV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6C16F624083AB4000D446E /* Screen Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6C16F924083AB4000D446E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC6C16FB24083AB4000D446E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC6C16FE24083AB4000D446E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC6C170024083AB4000D446E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6C170324083AB4000D446E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6C170524083AB4000D446E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6C170B2408E6EF000D446E /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		AC6C170D2408F0F2000D446E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC6C170F2408F193000D446E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +52,7 @@
 		AC6C16F724083AB4000D446E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC6C16F624083AB4000D446E /* AppleTV1.app */,
+				AC6C16F624083AB4000D446E /* Screen Saver.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +62,9 @@
 			children = (
 				AC6C16F924083AB4000D446E /* AppDelegate.swift */,
 				AC6C16FB24083AB4000D446E /* ViewController.swift */,
+				AC6C170B2408E6EF000D446E /* ImagesViewController.swift */,
+				AC6C170F2408F193000D446E /* SwiftyJSON.swift */,
+				AC6C170D2408F0F2000D446E /* Constants.swift */,
 				AC6C16FD24083AB4000D446E /* Main.storyboard */,
 				AC6C170024083AB4000D446E /* Assets.xcassets */,
 				AC6C170224083AB4000D446E /* LaunchScreen.storyboard */,
@@ -81,7 +90,7 @@
 			);
 			name = AppleTV1;
 			productName = AppleTV1;
-			productReference = AC6C16F624083AB4000D446E /* AppleTV1.app */;
+			productReference = AC6C16F624083AB4000D446E /* Screen Saver.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6C170C2408E6EF000D446E /* ImagesViewController.swift in Sources */,
 				AC6C16FC24083AB4000D446E /* ViewController.swift in Sources */,
 				AC6C16FA24083AB4000D446E /* AppDelegate.swift in Sources */,
+				AC6C17102408F193000D446E /* SwiftyJSON.swift in Sources */,
+				AC6C170E2408F0F2000D446E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.praveen.AppleTV1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Screen Saver";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
@@ -304,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.praveen.AppleTV1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Screen Saver";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
